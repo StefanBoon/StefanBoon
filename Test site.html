@@ -1,0 +1,195 @@
+<html style="background:white; font-family: Verdana">
+
+  <!---<meta name="viewport" content="width=device-width, initial-scale=1.0"> --->
+<style>
+
+html { padding: 0 0;
+width: 100%;
+margin: 0;}
+
+.sectie{
+padding: 40px 0;
+width: 100%;
+text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sectieBox{
+padding: 40px;
+width: 100%;
+text-align: center;
+display: inline-block;
+}
+
+.footer{
+    align-items: center;
+border-radius: 20px;
+padding: 20px 0;
+width: 90%;
+font-size: 15px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+color: gray;
+font-weight: 50;
+}
+
+.header{
+padding: 20px 0;
+min-height: 300px;
+width: 100%;
+text-align: center;
+}
+
+.header h1{
+padding: 20px 0;
+width: 100%;
+text-align: center;
+}
+
+h1{
+padding:20px 0;
+font-size: 30px;
+}
+
+
+.row{
+display: inline-block;
+padding: 30px 30px;
+}
+
+.row div{
+display: inline-block;
+}
+
+.row p{
+display: inline-block;
+background: #fff;
+padding: 100px 50px;
+font-size: 20px;
+border-radius: 10px;
+border-width: 30%;
+position: relative;
+height: 8%;
+color: black;
+transition: 0.3s;
+}
+
+
+.row p:hover{
+background: #E8E8E8;
+height: 7.5%;
+padding: 110px 55px;
+}
+
+.square {
+  height: 400px;
+  width: 250px;
+  background: gray;
+border-radius: 10px;
+transition: 0.5s;
+}
+
+
+.square:hover{
+background: lightblue;
+}
+
+<!---------- NAVBAR--------->
+.navbar{
+    background: red;
+    position: sticky;
+    padding: 20px 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+</style>
+
+
+<section class="header" style="background: #7077ff">
+    <h1 style="font-size: 60px">TEST HTML PAGE</h1>
+<section class="navbar">
+
+    <ul style="display: inline-block;">
+        <li><a class="active" href="Test site.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+
+</section>
+
+</section>
+
+
+
+<section class="sectie" style="background:white">
+
+<h1>Dit is een header in de tweede sectie</h1>
+<p>Dit is een neppe tekst eronder.</p>
+
+</section>
+
+<section class="sectie" style="background:lightblue">
+<h1>De drie componenten</h1>
+
+<div class="row">
+
+<p>Rood</p>
+<p>Twaalf</p>
+<p>Test</p>
+
+</div>
+
+</section>
+
+<section class="sectie">
+
+<div class="row">
+
+<div class="square"></div>
+<div class="square"></div>
+<div class="square"></div>
+
+</div>
+</section>
+
+
+<section class="footer", style="background: #D0D0D0">
+<p>Dit is de vijfde sectie</p>
+<p>Dit is ook nog is een footer</p>
+
+
+</section>
+
+</html>
