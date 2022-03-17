@@ -3,6 +3,8 @@
 - 🌱 I’m currently learning C#/XAML, HTML/CSS
 - 📫 You can contact me by mailing to 
 
+Check out my CV in webpage here: stefanboon.github.io/CV/index.html
+
 <!---
 StefanBoon/StefanBoon is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
